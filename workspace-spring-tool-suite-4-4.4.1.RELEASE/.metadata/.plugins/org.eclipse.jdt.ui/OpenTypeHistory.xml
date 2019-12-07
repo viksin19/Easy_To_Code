@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=players/C:\/Users\/VikramSingh\/.m2\/repository\/org\/springframework\/data\/spring-data-mongodb\/2.2.1.RELEASE\/spring-data-mongodb-2.2.1.RELEASE.jar&lt;org.springframework.data.mongodb.repository(MongoRepository.class[MongoRepository" modifiers="1537" timestamp="1573965202257"/>
+<typeInfo handle="=players/src\/main\/java&lt;com.example.player.Service{PlayerService.java[PlayerService" modifiers="513" timestamp="1573965963596"/>
+<typeInfo handle="=myMovieTicket/C:\/Users\/VikramSingh\/.m2\/repository\/org\/springframework\/data\/spring-data-mongodb\/2.2.3.RELEASE\/spring-data-mongodb-2.2.3.RELEASE.jar&lt;org.springframework.data.mongodb.repository(MongoRepository.class[MongoRepository" modifiers="1537" timestamp="1575695917047"/>
+<typeInfo handle="=myMovieTicket/src\/main\/java&lt;com.example.movies.Repo{MovieRepo.java[MovieRepo" modifiers="513" timestamp="1575697169586"/>
+<typeInfo handle="=myMovieTicket/src\/main\/java&lt;com.example.movies.service{MovieService.java[MovieService" modifiers="513" timestamp="1575697097196"/>
+</typeInfoHistroy>

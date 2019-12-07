@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;SimpleCORSFilter.java&apos; to &apos;myMovieTicket/src/main/java/com.example.movies.controller&apos;&#x0D;&#x0A;- Original project: &apos;players&apos;&#x0D;&#x0A;- Destination element: &apos;myMovieTicket/src/main/java/com.example.movies.controller&apos;&#x0D;&#x0A;- Original element: &apos;com.example.player.Controller.SimpleCORSFilter.java&apos;" description="Copy compilation unit" destination="=myMovieTicket/src\/main\/java&lt;com.example.movies.controller" element1="/src\/main\/java&lt;com.example.player.Controller{SimpleCORSFilter.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1575702699627" units="1" version="1.0"/>
+</session>

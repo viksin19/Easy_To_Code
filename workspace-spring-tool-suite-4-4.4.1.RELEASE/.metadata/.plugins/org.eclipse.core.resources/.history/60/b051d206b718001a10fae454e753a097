@@ -1,0 +1,18 @@
+package com.example.movies.document;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
+public class Theaters {
+	@org.springframework.data.annotation.Id
+	private String Id;
+	
+	private String name;
+	private String city;
+	private String state;
+	private String country;
+	private String pincode;
+	
+	
+
+}

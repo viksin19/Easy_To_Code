@@ -1,0 +1,59 @@
+# download git bash
+
+#then clone from repo  by providing credential
+
+
+#then perform this to provide your name and id
+
+1.    git config --global user.name "Singh, Vikram (vs192b)"
+2.    git config --global user.email "vs192b@att.com"
+3.    git config credential.helper store
+
+
+
+
+#    git add .   // command will copy your data from working directory to  index staging area.
+
+#    git commit -m"your message"     // will copy from index/staging area to  local repo.
+
+#    git push    // it will upload data to remote repo  i.e. to your GIT.
+
+#    git status  // will show the status.
+
+#    git log     // will show the  commits  with  commit IDs , Author , Date of commit.
+
+#    git show commitID    // will give details of that commit.
+
+#    git diff id1..id2     // will show what goes between these two commits.
+
+
+
+Note : Commit ID is  Hexadecimal.
+
+
+
+#    git log --oneline    // will show logs in much readable way 
+
+#    git log --oneline --author="author_name"   // will give details related to perticular author
+
+#    git log --since=YYYY-MM-DD     //provide logs
+
+#    git log --untill=YYYY-MM-DD    // 
+
+#    git log  -x    // provide last  x commits logs
+
+
+
+
+
+
+# vim filename.extension    // create file
+
+#  git rn -f  filename.extension     // remove file
+
+
+
+
+
+
+#   git checkout branch_name      // switch to the branch of given branchname

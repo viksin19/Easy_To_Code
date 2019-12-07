@@ -1,0 +1,145 @@
+package com.example.movies.document;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
+import java.util.List;
+
+import org.springframework.data.annotation.*;;
+
+@Document
+public class Movie {
+	@Id
+	private String Id;
+    private String movieName;
+    private String dateOfRelease;
+    private String genre;
+    private String country;
+    private String languages;
+    private String rating;
+    private String img;
+    
+    private List<Cast> casts;
+    private List<Theaters> theaters;
+    
+    
+	public Movie() {
+		super();
+	}
+
+
+	public Movie(String movieName, String dateOfRelease, String genre, String country, String languages,
+			String rating, String img, List<Cast> casts, List<Theaters> theaters) {
+		super();
+		this.movieName = movieName;
+		this.dateOfRelease = dateOfRelease;
+		this.genre = genre;
+		this.country = country;
+		this.languages = languages;
+		this.rating = rating;
+		this.img = img;
+		this.casts = casts;
+		this.theaters = theaters;
+	}
+
+
+	public String getId() {
+		return Id;
+	}
+
+
+	public void setId(String id) {
+		Id = id;
+	}
+
+
+	public String getMovieName() {
+		return movieName;
+	}
+
+
+	public void setMovieName(String movieName) {
+		this.movieName = movieName;
+	}
+
+
+	public String getDateOfRelease() {
+		return dateOfRelease;
+	}
+
+
+	public void setDateOfRelease(String dateOfRelease) {
+		this.dateOfRelease = dateOfRelease;
+	}
+
+
+	public String getGenre() {
+		return genre;
+	}
+
+
+	public void setGenre(String genre) {
+		this.genre = genre;
+	}
+
+
+	public String getCountry() {
+		return country;
+	}
+
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+
+	public String getLanguages() {
+		return languages;
+	}
+
+
+	public void setLanguages(String languages) {
+		this.languages = languages;
+	}
+
+
+	public String getRating() {
+		return rating;
+	}
+
+
+	public void setRating(String rating) {
+		this.rating = rating;
+	}
+
+
+	public String getImg() {
+		return img;
+	}
+
+
+	public void setImg(String img) {
+		this.img = img;
+	}
+
+
+	public List<Cast> getCasts() {
+		return casts;
+	}
+
+
+	public void setCasts(List<Cast> casts) {
+		this.casts = casts;
+	}
+
+
+	public List<Theaters> getTheaters() {
+		return theaters;
+	}
+
+
+	public void setTheaters(List<Theaters> theaters) {
+		this.theaters = theaters;
+	}
+	
+	
+}

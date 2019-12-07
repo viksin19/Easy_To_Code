@@ -1,0 +1,65 @@
+package com.example.movies.document;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
+public class Cast {
+
+	@org.springframework.data.annotation.Id
+	private String Id;
+	
+	private String castName;
+	private String age;
+	private String country;
+	private String gender;
+	private String img;
+	public Cast() {
+		super();
+	}
+	public Cast(String castName, String age, String country, String gender, String img) {
+		super();
+		this.castName = castName;
+		this.age = age;
+		this.country = country;
+		this.gender = gender;
+		this.img = img;
+	}
+	public String getId() {
+		return Id;
+	}
+	public void setId(String id) {
+		Id = id;
+	}
+	public String getCastName() {
+		return castName;
+	}
+	public void setCastName(String castName) {
+		this.castName = castName;
+	}
+	public String getAge() {
+		return age;
+	}
+	public void setAge(String age) {
+		this.age = age;
+	}
+	public String getCountry() {
+		return country;
+	}
+	public void setCountry(String country) {
+		this.country = country;
+	}
+	public String getGender() {
+		return gender;
+	}
+	public void setGender(String gender) {
+		this.gender = gender;
+	}
+	public String getImg() {
+		return img;
+	}
+	public void setImg(String img) {
+		this.img = img;
+	}
+	
+	
+}

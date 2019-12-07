@@ -1,0 +1,16 @@
+package com.example.movies.document;
+
+import org.springframework.data.mongodb.core.mapping.Document;
+
+@Document
+public class Cast {
+
+	@org.springframework.data.annotation.Id
+	private String Id;
+	
+	private String castName;
+	private String age;
+	private String country;
+	private String gender;
+	private String img;
+}

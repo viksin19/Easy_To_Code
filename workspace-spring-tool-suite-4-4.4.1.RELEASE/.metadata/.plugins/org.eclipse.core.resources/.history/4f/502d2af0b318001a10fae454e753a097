@@ -1,0 +1,9 @@
+package com.example.movies.Repo;
+
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.example.movies.document.Movie;
+
+public interface MovieRepo extends MongoRepository<Movie, String> {
+
+}
